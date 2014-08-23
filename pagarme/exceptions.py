@@ -6,3 +6,8 @@ from __future__ import unicode_literals
 class PagarMeError(Exception):
     def __init__(self, message):
         Exception.__init__(self, message)
+
+
+class TransactionValidationError(Exception):
+    def __init__(self, message):
+        Exception.__init__(self, message)
